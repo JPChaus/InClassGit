@@ -1,6 +1,7 @@
 def calc(a, b):
-    sum = a + b
+    add = a + b
     sub = a - b
     mul = a * b
     div = a / b
-    list = [sum, sub, mul, div]
+    list = [add, sub, mul, div]
+    sumlist = sum(list)
